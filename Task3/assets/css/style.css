@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/desert.jpg);
+    background-repeat: no-repeat;
+    background-size: 1519px;
+}
+.top{
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+}
+.top .item{
+    text-decoration: none;
+    color: aliceblue;
+    size: 20px;
+    margin-left: 20px;
+}
+.top a:nth-child(1){
+    margin-left: 500px;
+    color: darkorange;
+}
+.bottom{
+    width: 100%;
+    height: 703px;
+    padding-top: 200px;
+    padding-left: 400px;
+}
+.bottom h1{
+    font-size: 90px;
+    color: white;
+}
+.bottom p{
+    width: 640px;
+    margin-left: 20px;
+    color: lightgray;
+}
+hr{
+    margin-top: 20px;
+    width: 700px;
+}
+.bottom .link{
+    margin-top: 40px;
+}
+.bottom .link a{
+    font-size: 40px;
+    margin-left: 20px;
+    color: white;
+}
+.bottom .link a:nth-child(1){
+    margin-left: 120px;
+}
+.bottom .link a i{
+    transition: all 0.5s;
+}
+.bottom .link a i:hover{
+    color: red;
+}
+.top a{
+    transition: all 0.5s;
+}
+.top a:hover{
+    color: red;
+}

@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    height: 1500px;
+}
+div{
+    background-color: white;
+    width: 950px;
+    height: 1300px;
+    margin-top: 100px;
+    margin-left: 300px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/WindSong-Regular.ttf);
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url(../fonts/static/LexendMega-Light.ttf);
+}
+@font-face {
+    font-family: myThirdFont;
+    src: url(../fonts/static/LexendMega-Thin.ttf);
+}
+@font-face {
+    font-family: myFourthFont;
+    src: url(../fonts/static/LexendMega-ExtraLight.ttf);
+}
+@font-face {
+    font-family: myFifthFont;
+    src: url(../fonts/Condiment-Regular.ttf);
+}
+
+
+h1{
+    margin-left: 200px;
+    margin-top: 90px;
+    width: 200px;
+    font-size: 120px;
+    font-family: myFirstFont;
+}
+h2{
+    margin-top: 60px;
+    font-size: 30px;
+    margin-left: 150px;
+    font-family: mySecondFont;
+}
+h3{
+    margin-top: 80px;
+    margin-left: 320px;
+    font-family: myThirdFont;
+}
+h4{
+    margin-top: 70px;
+    margin-left: 250px;
+    width: 400px;
+    font-size: 25px;
+    text-align-last: center;
+    font-family: myFourthFont;
+}
+h5{
+    margin-top: 70px;
+    font-size: 20px;
+    font-family: myThirdFont;
+    margin-left: 300px;
+}
+pre{
+    margin-top: 70px;
+    font-size: 20px;
+    font-family: myFifthFont;
+    margin-left: 330px;
+}
